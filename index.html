@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:;base64,=">
+    <link rel="stylesheet" href="./assets/main.css">
+    <link rel="stylesheet" href="./assets/icons/themify-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+
+        <!--dashboard-->
+        <div class="dashboard">
+            <div class="heading">
+                <div class="status"> Now playing</div>
+                <div class="song-name-playing">Bỏ em vào ba lô</div>
+            </div>
+    
+            <!--img-song-->
+            <img src="./assets/img/pic1.jpg" alt="" class="img-song">
+        
+            <!--controls-->
+            <div class="controls">
+                <div class="controls-btn btn-reload">
+                    <i class="ti-reload"></i>
+                </div>
+                <div class="controls-btn btn-prev">
+                    <i class="ti-control-backward"></i>
+                </div>
+                <div class="controls-btn-main">
+                    <i class="controls-icon btn-pause ti-control-pause"></i>
+                    <i class="controls-icon btn-play ti-control-play play"></i>
+                </div>
+                <div class="controls-btn">
+                    <i class="ti-control-forward btn-next"></i>
+                </div>
+                <div class="controls-btn btn-shuffle">
+                    <i class="ti-control-shuffle"></i>
+                </div>
+            </div>
+
+            <!--input-->
+            <input class="input-range" type="range" step="1" min="0" max="100" value="0">
+        </div>
+
+            <!--audio-->
+            <audio id="audio" src=""></audio>
+
+        <!--list-song-->
+        <div class="list-song">
+            
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
